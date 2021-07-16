@@ -16,16 +16,15 @@ html {
 }
 
 body {
-  color: #343434;
+  color: #000000;
   margin: 0;
   padding: 0;
   font-family: "Montserrat", sans-serif;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 1.5;
 }
-
 a {
-  color: #f1e08b;
+  color: red;
 }
 a:hover {
   text-decoration: none;
@@ -69,19 +68,22 @@ h3 {
 /* Profile
   ------------------------------------*/
 header {
-  background: #2f3061;
+  background: #3b3daf;
   color: #f7fff7;
 }
 
 /* Work Experience
   ------------------------------------*/
 .work-experience {
-  background: #cee9f7;
+  /* background-image: url(work.jpg); */
+  background-size: cover;
+  background-position: top right;
 }
 
 /* Education
   ------------------------------------*/
 .education {
+  background-image: url(education.jpg);
   background-size: cover;
   background-position: top right;
   padding-bottom: 100px;
