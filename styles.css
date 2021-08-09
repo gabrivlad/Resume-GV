@@ -126,6 +126,10 @@ footer {
 }
 
 @media screen and (max-width: 749px) {
+  body{
+    display: flex;
+  }
+  
   h1 {
     font-size: 75px;
     line-height: 0.9;
